@@ -29,7 +29,7 @@
     
     XCTAssertTrue([ViewController isOverZero:1], @"");
     XCTAssertFalse([ViewController isOverZero:0], @"");
-    XCTAssertFalse([ViewController isOverZero:-1], @"");
+    XCTAssertTrue([ViewController isOverZero:-1], @"");
 }
 
 - (void)testPerformanceExample {
