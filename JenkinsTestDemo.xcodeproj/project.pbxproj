@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC2552835B98D36C732F868 /* libPods-JenkinsTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E417073A31C497AF52D3784E /* libPods-JenkinsTestDemo.a */; };
+		8B0A3E0C95C42B6E6878C9D1 /* libPods-JenkinsTestDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 333CB10149FBDD918A243A02 /* libPods-JenkinsTestDemoTests.a */; };
 		FC90C72A236BDC9000B3ED7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90C729236BDC9000B3ED7A /* AppDelegate.m */; };
 		FC90C72D236BDC9000B3ED7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90C72C236BDC9000B3ED7A /* SceneDelegate.m */; };
 		FC90C730236BDC9000B3ED7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC90C72F236BDC9000B3ED7A /* ViewController.m */; };
@@ -28,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E53E50A56D8EECA171D85C /* Pods-JenkinsTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsTestDemo/Pods-JenkinsTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		333CB10149FBDD918A243A02 /* libPods-JenkinsTestDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsTestDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DBEF7150141A76ACD876FB /* Pods-JenkinsTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTestDemo.release.xcconfig"; path = "Target Support Files/Pods-JenkinsTestDemo/Pods-JenkinsTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DAA721CD694FF25C8B07B018 /* Pods-JenkinsTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JenkinsTestDemoTests/Pods-JenkinsTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E417073A31C497AF52D3784E /* libPods-JenkinsTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JenkinsTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC90C725236BDC9000B3ED7A /* JenkinsTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JenkinsTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC90C728236BDC9000B3ED7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC90C729236BDC9000B3ED7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +50,7 @@
 		FC90C740236BDC9200B3ED7A /* JenkinsTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC90C744236BDC9200B3ED7A /* JenkinsTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTestDemoTests.m; sourceTree = "<group>"; };
 		FC90C746236BDC9200B3ED7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3B976E412B674E7D8A5A68 /* Pods-JenkinsTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsTestDemoTests/Pods-JenkinsTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC2552835B98D36C732F868 /* libPods-JenkinsTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,18 +66,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B0A3E0C95C42B6E6878C9D1 /* libPods-JenkinsTestDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BD6F7CB6A13D92B4711BD69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14E53E50A56D8EECA171D85C /* Pods-JenkinsTestDemo.debug.xcconfig */,
+				72DBEF7150141A76ACD876FB /* Pods-JenkinsTestDemo.release.xcconfig */,
+				FF3B976E412B674E7D8A5A68 /* Pods-JenkinsTestDemoTests.debug.xcconfig */,
+				DAA721CD694FF25C8B07B018 /* Pods-JenkinsTestDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1F7E8A087BA3498B4101262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E417073A31C497AF52D3784E /* libPods-JenkinsTestDemo.a */,
+				333CB10149FBDD918A243A02 /* libPods-JenkinsTestDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC90C71C236BDC9000B3ED7A = {
 			isa = PBXGroup;
 			children = (
 				FC90C727236BDC9000B3ED7A /* JenkinsTestDemo */,
 				FC90C743236BDC9200B3ED7A /* JenkinsTestDemoTests */,
 				FC90C726236BDC9000B3ED7A /* Products */,
+				3BD6F7CB6A13D92B4711BD69 /* Pods */,
+				B1F7E8A087BA3498B4101262 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +148,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC90C749236BDC9200B3ED7A /* Build configuration list for PBXNativeTarget "JenkinsTestDemo" */;
 			buildPhases = (
+				92AF9CAA1C9C7DFE8A306081 /* [CP] Check Pods Manifest.lock */,
 				FC90C721236BDC9000B3ED7A /* Sources */,
 				FC90C722236BDC9000B3ED7A /* Frameworks */,
 				FC90C723236BDC9000B3ED7A /* Resources */,
@@ -132,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC90C74C236BDC9200B3ED7A /* Build configuration list for PBXNativeTarget "JenkinsTestDemoTests" */;
 			buildPhases = (
+				26D80264F614A300DF19DA33 /* [CP] Check Pods Manifest.lock */,
 				FC90C73C236BDC9200B3ED7A /* Sources */,
 				FC90C73D236BDC9200B3ED7A /* Frameworks */,
 				FC90C73E236BDC9200B3ED7A /* Resources */,
@@ -202,6 +237,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26D80264F614A300DF19DA33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsTestDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92AF9CAA1C9C7DFE8A306081 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JenkinsTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC90C721236BDC9000B3ED7A /* Sources */ = {
@@ -365,6 +447,7 @@
 		};
 		FC90C74A236BDC9200B3ED7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E53E50A56D8EECA171D85C /* Pods-JenkinsTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +464,7 @@
 		};
 		FC90C74B236BDC9200B3ED7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DBEF7150141A76ACD876FB /* Pods-JenkinsTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +481,7 @@
 		};
 		FC90C74D236BDC9200B3ED7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3B976E412B674E7D8A5A68 /* Pods-JenkinsTestDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -416,6 +501,7 @@
 		};
 		FC90C74E236BDC9200B3ED7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA721CD694FF25C8B07B018 /* Pods-JenkinsTestDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
