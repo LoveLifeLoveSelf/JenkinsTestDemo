@@ -12,5 +12,7 @@
 
 + (BOOL)isOverZero:(NSInteger)num;
 
++ (BOOL)isOverOne:(NSInteger)num;
+
 @end
 

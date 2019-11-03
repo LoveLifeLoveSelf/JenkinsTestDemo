@@ -19,6 +19,11 @@
     return num < 0 ? YES : NO;
 }
 
++ (BOOL)isOverOne:(NSInteger)num
+{
+    return num > 1 ? YES : NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
