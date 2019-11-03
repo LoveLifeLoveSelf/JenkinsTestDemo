@@ -16,7 +16,7 @@
 
 + (BOOL)isOverZero:(NSInteger)num
 {
-    return num < 0 ? YES : NO;
+    return num > 0 ? YES : NO;
 }
 
 + (BOOL)isOverOne:(NSInteger)num
