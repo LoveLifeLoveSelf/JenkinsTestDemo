@@ -14,5 +14,7 @@
 
 + (BOOL)isOverOne:(NSInteger)num;
 
++ (BOOL)isOverTwo:(NSInteger)num;
+
 @end
 

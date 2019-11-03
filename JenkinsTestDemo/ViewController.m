@@ -24,6 +24,11 @@
     return num > 1 ? YES : NO;
 }
 
++ (BOOL)isOverTwo:(NSInteger)num
+{
+    return num > 2 ? YES : NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
