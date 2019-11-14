@@ -16,12 +16,12 @@
 
 + (BOOL)isOverZero:(NSInteger)num
 {
-    return num > 0 ? YES : NO;
+    return num > 0;
 }
 
 + (BOOL)isOverOne:(NSInteger)num
 {
-    return num > 1 ? YES : NO;
+    return num > 1;
 }
 
 - (void)viewDidLoad {
